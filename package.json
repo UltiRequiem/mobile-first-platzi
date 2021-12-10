@@ -1,0 +1,14 @@
+{
+  "name": "mobile-first-platzi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:UltiRequiem/mobile-first-platzi.git",
+  "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "live-server ."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
