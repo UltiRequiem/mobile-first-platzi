@@ -1,3 +1,5 @@
+@import "keyframes.css";
+
 :root {
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
@@ -19,4 +21,43 @@
 html {
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(
+    208.83deg,
+    var(--black) 16.69%,
+    var(--bitcoin-orange) 100%
+  );
+
+  background-size: 400% 400%;
+
+  -webkit-animation: bgAnimateBitcoin 20s ease infinite;
+  -moz-animation: bgAnimateBitcoin 20s ease infinite;
+  animation: bgAnimateBitcoin 20s ease infinite;
+}
+
+header img {
+  width: 151px;
+  height: 24px;
+  margin-top: 30px;
+  align-self: center;
+}
+
+.header--title-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  height: 218px;
+  margin-top: 40px;
+  text-align: center;
+  align-self: center;
 }
