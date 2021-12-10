@@ -6,9 +6,11 @@
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "live-server ."
+    "start": "live-server .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "prettier": "^2.5.1"
   }
 }
