@@ -78,4 +78,51 @@ header img {
 }
 
 .header--title-container .header--button {
+  position: absolute;
+  left: calc(50% - 120px);
+  top: 270px;
+  display: block;
+  margin-top: 35px;
+  padding: 15px;
+  width: 229px;
+  height: 48px;
+  background-color: var(--off-white);
+
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+  border: none;
+  border-radius: 15px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.header--button span {
+  display: inline-block;
+  width: 13px;
+  height: 8px;
+  margin-left: 10px;
+  background-image: url("./assets/icons/down-arrow.svg");
+}
+
+main {
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  background-color: var(--off-white);
+}
+
+.main-exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.main-exchange-container {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
 }
