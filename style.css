@@ -148,3 +148,12 @@ main {
   font-weight: 500;
   color: var(--ligthy-grey);
 }
+
+.main-currency-table {
+  width: 70%;
+  min-width: 235px;
+  max-width: 500px;
+  height: 360px;
+  margin: 0 auto;
+  font-family: "Intern", sans-serif;
+}
