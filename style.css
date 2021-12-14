@@ -10,7 +10,7 @@
   --grey: #bababa;
   --off-white: #faf8f7;
   --just-white: #fff;
-  --ligthy-grey: #757575;
+  --other-grey: #757575;
 }
 
 * {
@@ -142,7 +142,7 @@ main {
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: 500;
-  color: var(--ligthy-grey);
+  color: var(--other-grey);
 }
 
 .main-currency-table {
@@ -180,4 +180,27 @@ main {
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--just-white);
+}
+
+.currency-table--container .table__top-left {
+  border-radius: 15px 0 0 0;
+}
+
+.currency-table--container .table__top-right {
+  border-radius: 0 15px 0 0;
+}
+
+.currency-table--container .table__bottom-left {
+  border-radius: 0 0 0 15px;
+}
+
+.currency-table--container .table__bottom-left {
+  border-radius: 0 0 15px 0;
+}
+
+.currency-table--container .table__right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: var(--other-grey);
 }
