@@ -219,3 +219,19 @@ main {
 .currency-table--container .up {
   background: url("./assets/icons/trending-up.svg") center/cover no-repeat;
 }
+
+.currency-table--date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15 px;
+  padding: 8px;
+  background: var(--soft-orange);
+  border-radius: 8px;
+}
+
+.currency-table--date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
