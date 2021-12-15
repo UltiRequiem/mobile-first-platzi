@@ -5,6 +5,7 @@
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
   --secondary-blue: #1a9af7;
+  --warm-grey: #808080;
   --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
   --black: #282623;
@@ -267,4 +268,45 @@ main {
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
+}
+
+.product-detail--title p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--warm-grey);
+}
+
+.product-detail-card {
+  width: clamp(288px, 90%, 400px);
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail-card .clock {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-bottom: 20px;
+  background: url("./assets/icons/clock.svg") center/cover no-repeat;
+}
+
+.product--card-title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--warm-grey);
 }

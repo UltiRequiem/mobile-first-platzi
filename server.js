@@ -7,6 +7,8 @@ import serveStatic from "serve-static";
 
 const PORT = env.PORT || 8080;
 
-connect()
-  .use(serveStatic(dirname(fileURLToPath(import.meta.url))))
-  .listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
+const app = connect();
+
+app.use(serveStatic(dirname(fileURLToPath(import.meta.url))));
+
+app.listen(PORT, () => console.log(`Running on http://localhost:${PORT}`));
