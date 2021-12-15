@@ -215,3 +215,7 @@ main {
 .currency-table--container .down {
   background: url("./assets/icons/trending-down.svg") center/cover no-repeat;
 }
+
+.currency-table--container .up {
+  background: url("./assets/icons/trending-up.svg") center/cover no-repeat;
+}
