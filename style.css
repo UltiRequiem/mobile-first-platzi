@@ -204,3 +204,14 @@ main {
   line-height: 1.7rem;
   color: var(--other-grey);
 }
+
+.currency-table--container--icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+}
+
+.currency-table--container .down {
+  background: url("./assets/icons/trending-down.svg") center/cover no-repeat;
+}

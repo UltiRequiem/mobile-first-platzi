@@ -1,9 +1,17 @@
 # Platzi Mobile First
 
-Run:
+All dependencies are for serving the files or formatting.
 
+Production
+
+```sh
+yarn start
 ```
-yarn && yarn start
+
+Development
+
+```sh
+yarn dev
 ```
 
 ## Licence

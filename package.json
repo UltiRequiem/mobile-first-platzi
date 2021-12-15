@@ -5,12 +5,18 @@
   "repository": "git@github.com:UltiRequiem/mobile-first-platzi.git",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "live-server .",
+    "start": "node server.js",
+    "dev": "live-server .",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "live-server": "^1.2.1",
     "prettier": "^2.5.1"
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
   }
 }
