@@ -1,19 +1,42 @@
 # Platzi Mobile First
 
-All dependencies are for serving the files or formatting.
+[Take the course!](https://platzi.com/cursos/mobile-first)
 
-Production
+> It's on Spanish 🧶
+
+- Production
 
 ```sh
 yarn start
 ```
 
-Development
+- Development
 
 ```sh
 yarn dev
 ```
 
+## Support
+
+Open an Issue, I will check it a soon as possible 👀
+
+If you want to hurry me up a bit
+[send me a tweet](https://twitter.com/UltiRequiem) 😆
+
+Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you
+like my work 🚀
+
+Don't forget to start the repo ⭐
+
+## Authors
+
+[Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
+Maintainer 💪
+
+See also the full list of
+[contributors](https://github.com/UltiRequiem/mobile-first-platzi/contributors)
+who participated in this project.
+
 ## Licence
 
-MIT
+Licensed under the MIT License.
